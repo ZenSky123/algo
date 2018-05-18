@@ -147,3 +147,10 @@ if __name__ == '__main__':
     RecursionInsert(node, 1)
     RecursionInsert(node, 5)
     RecursionInsert(node, 9)
+
+    pre_order_walk(node)
+    print()
+    Delete(node,5)
+    pre_order_walk(node)
+
+
