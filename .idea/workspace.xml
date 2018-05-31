@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3fd73cd-22ad-4ee7-b702-209a873bfd34" name="Default" comment="双数组队列，平衡优化">
-      <change afterPath="$PROJECT_DIR$/DS/tree/sfxj_TrieTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b3fd73cd-22ad-4ee7-b702-209a873bfd34" name="Default" comment="Trie树代码">
+      <change afterPath="$PROJECT_DIR$/DS/tree/sfxj_PatriciaTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sfxj_TrieTree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sfxj_TrieTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/tree/sfxj_TrieTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="260">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sfxj_PatriciaTree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS/tree/sfxj_PatriciaTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,6 +93,7 @@
         <option value="$PROJECT_DIR$/DS/list/sfxj_DoubleArrayQueue_optimization_balance.py" />
         <option value="$PROJECT_DIR$/DS/tree/sfxj_AVLTree.py" />
         <option value="$PROJECT_DIR$/DS/tree/sfxj_TrieTree.py" />
+        <option value="$PROJECT_DIR$/DS/tree/sfxj_PatriciaTree.py" />
       </list>
     </option>
   </component>
@@ -341,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526804153931</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Trie树代码">
+      <created>1527774779778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527774779779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +370,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32769555" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108333334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -385,7 +400,8 @@
     <MESSAGE value="循环队列" />
     <MESSAGE value="双数组队列" />
     <MESSAGE value="双数组队列，平衡优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="双数组队列，平衡优化" />
+    <MESSAGE value="Trie树代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie树代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,8 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS/tree/sfxj_TrieTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="260">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/tree/sfxj_PatriciaTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
         </state>
       </provider>
     </entry>
