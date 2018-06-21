@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3fd73cd-22ad-4ee7-b702-209a873bfd34" name="Default" comment="修复Patricia树代码">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/sort/quickSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/DP/MatrixChain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +19,7 @@
     <SUITE FILE_PATH="coverage/algo$sfxj_RedBlackTree.coverage" NAME="sfxj_RedBlackTree Coverage Results" MODIFIED="1526788202042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_DoubleArrayQueue_optimization_balance.coverage" NAME="sfxj_DoubleArrayQueue_optimization_balance Coverage Results" MODIFIED="1527774564024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/list" />
     <SUITE FILE_PATH="coverage/algo$AVLTree.coverage" NAME="AVLTree Coverage Results" MODIFIED="1528387877262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
+    <SUITE FILE_PATH="coverage/algo$MatrixChain.coverage" NAME="MatrixChain Coverage Results" MODIFIED="1529576231149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/DP" />
     <SUITE FILE_PATH="coverage/algo$sfxj_TrieTree.coverage" NAME="sfxj_TrieTree Coverage Results" MODIFIED="1528387412804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_BinarySearchTree.coverage" NAME="sfxj_BinarySearchTree Coverage Results" MODIFIED="1526608545585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_DoubleArrayQueue.coverage" NAME="sfxj_DoubleArrayQueue Coverage Results" MODIFIED="1526800739253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/list" />
@@ -27,20 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="heapSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algo/sort/heapSort.py">
+      <file leaf-file-name="MatrixChain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algo/sort/quickSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="480">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -74,6 +65,7 @@
         <option value="$PROJECT_DIR$/DS/tree/AVLTree.py" />
         <option value="$PROJECT_DIR$/algo/sort/heapSort.py" />
         <option value="$PROJECT_DIR$/algo/sort/quickSort.py" />
+        <option value="$PROJECT_DIR$/algo/DP/MatrixChain.py" />
       </list>
     </option>
   </component>
@@ -116,12 +108,6 @@
             <path>
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.quickSort">
+  <component name="RunManager" selected="Python.MatrixChain">
     <configuration name="AVLTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +150,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS/tree/AVLTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MatrixChain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/DP/MatrixChain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,25 +212,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sfxj_DoubleArrayQueue_optimization_balance" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS/list/sfxj_DoubleArrayQueue_optimization_balance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="sfxj_TrieTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,19 +232,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.sfxj_DoubleArrayQueue_optimization_balance" />
       <item itemvalue="Python.sfxj_TrieTree" />
       <item itemvalue="Python.AVLTree" />
       <item itemvalue="Python.heapSort" />
       <item itemvalue="Python.quickSort" />
+      <item itemvalue="Python.MatrixChain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MatrixChain" />
         <item itemvalue="Python.quickSort" />
         <item itemvalue="Python.heapSort" />
         <item itemvalue="Python.AVLTree" />
         <item itemvalue="Python.sfxj_TrieTree" />
-        <item itemvalue="Python.sfxj_DoubleArrayQueue_optimization_balance" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +398,34 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/algo/sort/heapSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/sort/quickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="55" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/sort/heapSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/sort/quickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS/tree/AVLTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3140">
@@ -619,15 +633,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algo/sort/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algo/sort/quickSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
