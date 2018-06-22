@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3fd73cd-22ad-4ee7-b702-209a873bfd34" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/algo/DP/LCS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/DP/MatrixChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/DP/MatrixChain.py" afterDir="false" />
     </list>
@@ -19,19 +20,20 @@
     <SUITE FILE_PATH="coverage/algo$sfxj_RedBlackTree.coverage" NAME="sfxj_RedBlackTree Coverage Results" MODIFIED="1526788202042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_DoubleArrayQueue_optimization_balance.coverage" NAME="sfxj_DoubleArrayQueue_optimization_balance Coverage Results" MODIFIED="1527774564024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/list" />
     <SUITE FILE_PATH="coverage/algo$AVLTree.coverage" NAME="AVLTree Coverage Results" MODIFIED="1528387877262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
-    <SUITE FILE_PATH="coverage/algo$MatrixChain.coverage" NAME="MatrixChain Coverage Results" MODIFIED="1529577956308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/DP" />
+    <SUITE FILE_PATH="coverage/algo$MatrixChain.coverage" NAME="MatrixChain Coverage Results" MODIFIED="1529596768855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/DP" />
     <SUITE FILE_PATH="coverage/algo$sfxj_TrieTree.coverage" NAME="sfxj_TrieTree Coverage Results" MODIFIED="1528387412804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_BinarySearchTree.coverage" NAME="sfxj_BinarySearchTree Coverage Results" MODIFIED="1526608545585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/tree" />
     <SUITE FILE_PATH="coverage/algo$sfxj_DoubleArrayQueue.coverage" NAME="sfxj_DoubleArrayQueue Coverage Results" MODIFIED="1526800739253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS/list" />
+    <SUITE FILE_PATH="coverage/algo$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1529674499678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/DP" />
     <SUITE FILE_PATH="coverage/algo$quickSort.coverage" NAME="quickSort Coverage Results" MODIFIED="1529509387167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/sort" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MatrixChain.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
+      <file leaf-file-name="LCS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo/DP/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="527">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,6 +68,7 @@
         <option value="$PROJECT_DIR$/algo/sort/heapSort.py" />
         <option value="$PROJECT_DIR$/algo/sort/quickSort.py" />
         <option value="$PROJECT_DIR$/algo/DP/MatrixChain.py" />
+        <option value="$PROJECT_DIR$/algo/DP/LCS.py" />
       </list>
     </option>
   </component>
@@ -108,6 +111,12 @@
             <path>
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -135,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MatrixChain">
+  <component name="RunManager" selected="Python.LCS">
     <configuration name="AVLTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +159,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS/tree/AVLTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="LCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/DP/LCS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,39 +240,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sfxj_TrieTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS/tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS/tree/sfxj_TrieTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.sfxj_TrieTree" />
       <item itemvalue="Python.AVLTree" />
       <item itemvalue="Python.heapSort" />
       <item itemvalue="Python.quickSort" />
       <item itemvalue="Python.MatrixChain" />
+      <item itemvalue="Python.LCS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LCS" />
         <item itemvalue="Python.MatrixChain" />
         <item itemvalue="Python.quickSort" />
         <item itemvalue="Python.heapSort" />
         <item itemvalue="Python.AVLTree" />
-        <item itemvalue="Python.sfxj_TrieTree" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529576486721</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加非递归矩阵链乘法">
+      <created>1529577965791</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529577965791</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,7 +400,8 @@
     <MESSAGE value="Patricia树代码" />
     <MESSAGE value="添加堆排序" />
     <MESSAGE value="添加矩阵链乘法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加矩阵链乘法" />
+    <MESSAGE value="添加非递归矩阵链乘法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加非递归矩阵链乘法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,6 +423,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algo/sort/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -554,17 +585,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
             <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -655,8 +686,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algo/DP/MatrixChain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="549">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/DP/LCS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>

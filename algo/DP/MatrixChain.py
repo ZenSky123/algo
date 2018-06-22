@@ -33,7 +33,7 @@ def MatrixChain(P, n):
                 if t < m[i][j]:
                     m[i][j] = t
                     s[i][j] = k
-                    result = m[i][j]
+            result = m[i][j]
     return result
 
 
