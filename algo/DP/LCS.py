@@ -1,7 +1,7 @@
 x = "ABCABC"
 y = "BCDBCD"
 
-B = [['' for _ in range(len(y) + 1)] for _ in range(len(x) + 1)]
+B = [[' ' for _ in range(len(y) + 1)] for _ in range(len(x) + 1)]
 C = [[0 for _ in range(len(y) + 1)] for _ in range(len(x) + 1)]
 
 
@@ -35,3 +35,6 @@ def lcs(x, y):
 
 if __name__ == '__main__':
     lcs(x, y)
+    print('  '+' '.join(map(str,range(len(B)))))
+    for i,l in enumerate(B):
+        print('{} '.format(i)+' '.join(l))
