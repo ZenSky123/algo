@@ -9,7 +9,7 @@ def f(B, i, j, res=''):
     if i == 0 or j == 0:
         print(res[::-1])
         return
-    if B[i][j] == '←':
+    if B[i][j] == '↖':
         res += x[i - 1]
         f(B, i - 1, j - 1, res)
     elif B[i][j] == '↑':
@@ -23,10 +23,10 @@ def lcs(x, y):
         for j, yj in enumerate(y, start=1):
             if xi == yj:
                 C[i][j] = C[i - 1][j - 1] + 1
-                B[i][j] = '←'
+                B[i][j] = '↖'
             elif C[i][j - 1] > C[i - 1][j]:
                 C[i][j] = C[i][j - 1]
-                B[i][j] = '↓'
+                B[i][j] = '←'
             else:
                 C[i][j] = C[i - 1][j]
                 B[i][j] = '↑'
